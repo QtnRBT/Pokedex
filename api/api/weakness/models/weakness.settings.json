@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weaknesses",
+  "info": {
+    "name": "weakness"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pokemon": {
+      "model": "poke"
+    },
+    "bug": {
+      "type": "decimal"
+    },
+    "dragon": {
+      "type": "decimal"
+    },
+    "electric": {
+      "type": "decimal"
+    },
+    "fairy": {
+      "type": "decimal"
+    },
+    "fight": {
+      "type": "decimal"
+    },
+    "fire": {
+      "type": "decimal"
+    },
+    "flying": {
+      "type": "decimal"
+    },
+    "ghost": {
+      "type": "decimal"
+    },
+    "grass": {
+      "type": "decimal"
+    },
+    "ground": {
+      "type": "decimal"
+    },
+    "ice": {
+      "type": "decimal"
+    },
+    "normal": {
+      "type": "decimal"
+    },
+    "poison": {
+      "type": "decimal"
+    },
+    "psychic": {
+      "type": "decimal"
+    },
+    "rock": {
+      "type": "decimal"
+    },
+    "steel": {
+      "type": "decimal"
+    },
+    "water": {
+      "type": "decimal"
+    }
+  }
+}

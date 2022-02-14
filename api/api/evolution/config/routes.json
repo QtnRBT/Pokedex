@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/evolutions",
+      "handler": "evolution.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/evolutions/count",
+      "handler": "evolution.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/evolutions/:id",
+      "handler": "evolution.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/evolutions",
+      "handler": "evolution.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/evolutions/:id",
+      "handler": "evolution.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/evolutions/:id",
+      "handler": "evolution.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "name": "type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pokemon": {
+      "model": "poke"
+    },
+    "type1": {
+      "type": "string"
+    },
+    "type2": {
+      "type": "string"
+    }
+  }
+}

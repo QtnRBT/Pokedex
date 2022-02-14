@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pokes",
+  "info": {
+    "name": "poke",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_pok": {
+      "type": "string"
+    },
+    "dominant_color": {
+      "type": "string"
+    }
+  }
+}

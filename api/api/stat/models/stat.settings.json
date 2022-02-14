@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stats",
+  "info": {
+    "name": "stat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pokemon": {
+      "model": "poke"
+    },
+    "hp": {
+      "type": "integer"
+    },
+    "attack": {
+      "type": "integer"
+    },
+    "defense": {
+      "type": "integer"
+    },
+    "sp_attack": {
+      "type": "integer"
+    },
+    "sp_defense": {
+      "type": "integer"
+    },
+    "speed": {
+      "type": "integer"
+    }
+  }
+}
